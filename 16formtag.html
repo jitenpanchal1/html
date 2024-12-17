@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- username = _________
+    password = _________ -->
+
+    <form action="php.backend" method="post">
+
+        <table>
+            <tr>
+                <td><label for="username">username</label></td>
+                <td><input type="text" id="username" required placeholder="enter your username"></td>
+            </tr>
+            <tr>
+                <td><label for="subject"> enter your subject</label></td>
+                <td><input type="text" list="data">
+                    <datalist id="data">
+                        <option value="English"></option>
+                        <option value="Hindi"></option>
+                        <option value="Gujrati"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">password</label></td>
+                <td><input type="password" name="" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="email">email</label></td>
+                <td><input type="email" name="" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">phone No.</label></td>
+                <td><input type="tel" name="" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="xender">xender</label></td>
+                <td>
+                    male <input type="radio" name="xender" id="">
+                    female <input type="radio" name="xender" id="">
+                    other <input type="radio" name="xender" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DOB">DOB</label></td>
+                <td><input type="date" name="" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="date-time">date-time</label></td>
+                <td><input type="datetime-local" name="" id="date-time"></td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">hobbies</label></td>
+                <td>
+                    crickrt <input type="checkbox" disabled checked name="" id="">
+                    swiming <input type="checkbox" name="" id="">
+                    gym <input type="checkbox" name="" id="">
+                    travel <input type="checkbox" name="" id="">
+                    game <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="eduction">eduction</label></td>
+                <td>
+                    <select>
+                        <option value="10th">10th</option>
+                        <option value="12th">12th</option>
+                        <option value="">diploma</option>
+                        <option value="">B.E</option>
+                        <option value="">B.A</option>
+                        <option value="">B.ca</option>
+                        <option value="">B.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">profile photo</label></td>
+                <td><input type="file" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="feedback">feedback</label></td>
+                <td>
+                    <textarea name="" id="" cols="100" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="color">color</label></td>
+                <td><input type="color" name="" id="color"></td>
+            </tr>
+            <tr>
+                <td><label for="range">range</label></td>
+                <td><input type="range" value="0" name="" id="range"></td>
+            </tr>
+            <tr>
+                <td><label for="btn">btn</label></td>
+                <td><input type="button" value="+"><input type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><label for=""></label></td>
+                <td><input type="week" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="reset">reset</label></td>
+                <td><input type="reset" value="reset"></td>
+
+            </tr>
+            <tr>
+                <td><label for="submit">submit</label></td>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>
